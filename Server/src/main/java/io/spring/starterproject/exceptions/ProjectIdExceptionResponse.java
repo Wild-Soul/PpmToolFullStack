@@ -9,6 +9,6 @@ public class ProjectIdExceptionResponse {
     private String projectIdentifier;
 
     public ProjectIdExceptionResponse(String message) {
-        projectIdentifier = message;
+        this.projectIdentifier = message;
     }
 }

@@ -24,4 +24,8 @@ public class ProjectService {
             );
         }
     }
+
+    public Project findByProjectIdentifier(String projectId) {
+        return projectRepository.findByProjectIdentifier(projectId.toUpperCase());
+    }
 }
